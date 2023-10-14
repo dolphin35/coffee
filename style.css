@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+ul li a {
+    transition: all 300ms linear;
+}
+
+ul li a:hover {
+    color: rgb(255, 254, 254);
+    padding: 10px;
+    background-color: #ac501798;
+    border-radius: 30px;
+    transition: all 300ms liner;
+}
+
+ul li a.logo:hover {
+    color: #f0ebeb;
+    background-color: #0e0a0600;
+    padding: 4px;
+    transition: all 300ms liner;
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.356);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+.bordercolor {
+    border-color: rgba(156, 140, 140, 0.349);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+div .icon {
+    /* background: #d8d2c6c0; */
+    background: #f8f2e7;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 13px;
+    padding: 10px;
+}
+
+.icon {
+    transition: transform 0.3s;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
+
+.btn {
+    transition: transform 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+.resim {
+    transition: transform 0.3s;
+}
+
+.resim:hover {
+    transform: scale(1.1);
+}
+
+.urun {
+    background: #d8d2c6c0;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 26px;
+    padding: 15px;
+}

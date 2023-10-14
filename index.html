@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                container: {
+                    padding: {
+                        DEFAULT: '1rem',
+                        sm: '2rem',
+                        lg: '4rem',
+                        xl: '8rem',
+                    }
+                },
+                extend: {
+                    backgroundImage: {
+                        kahve: "url('img/kahve.jpg')",
+                    },
+                    colors: {
+                        clifford: '#da373d',
+
+
+
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-kahve backdrop-blur-md bg-no-repeat bg-cover">
+
+    <div class="container py-16 mx-auto">
+        <div class="rounded-[42px] glass p-16">
+            <ul class="flex flex-wrap gap-4 mb-8">
+                <li class=flex-1>
+                    <div class="-mt-1">
+                        <a href="#flavored" class="text-lg font-semibold logo">Flavored</a>
+                        <button>
+                            <iconify-icon class="-mb-1 -ml-1" width="25" height="25" icon="line-md:coffee-loop">
+                            </iconify-icon>
+                        </button>
+                    </div>
+                    <div class="text-justify text-xs">
+                        <p>Wake up to something special.</p>
+                    </div>
+                </li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#coffee">Coffe Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#coffeShop">Coffe Shop</a></li>
+
+            </ul>
+
+
+            <div>
+                <div class="flex flex-wrap flex-col-reverse lg:flex-row items-center">
+                    <div class="w-full lg:w-3/5 space-y-8">
+                        <div>
+                            <h1 class="font-bold text-5xl tracking-wide" style="color: #420205;">Coffee</h1>
+                            <h1 class="font-bold text-5xl tracking-wide" style="color: #420205;">The Best For You</h1>
+                        </div>
+                        <button class="btn bg-stone-800 shadow-lg shadow-black  text-white text-md rounded-full py-3 px-16" style="background-color: #250305;">View Menu</button>
+                        <div class="flex space-x-4">
+                            <a href="#">
+                                <iconify-icon class="icon" icon="ic:twotone-coffee-maker" style="color: #a27738;" width="40" height="40"></iconify-icon>
+                            </a>
+                            <a href="#">
+                                <iconify-icon class="icon" icon="cib:coffeescript" style="color: #a27738;" width="40" height="40"></iconify-icon>
+                            </a>
+                            <a href="#">
+                                <iconify-icon class="icon" icon="tabler:coffee" style="color: #a27738; " width="40" height="40"></iconify-icon>
+
+                            </a>
+                            <a href="#">
+                                <iconify-icon class="icon" icon="game-icons:coffee-beans" style="color: #a27738;" width="40" height="40"></iconify-icon>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="w-2/5">
+                        <img class="resim object-cover rotate-2" src="img/coffe.png">
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+            <div class="flex text-justify space-x-6 my-20">
+                <div class="urun">
+                    <div class="-mt-32">
+                        <img class="resim" src="img/americano.png">
+                    </div>
+                    <div>
+                        <h1 class="font-bold" style="color: #420205;">Americano</h1>
+                        <p class="text-sm">100% Natural Arabica 30 ml cup</p>
+                    </div>
+
+                    <div class="ml-1 text-center space-x-1 mt-7">
+                        <a href="#">
+                            <iconify-icon class="icon" icon="map:grocery-or-supermarket"></iconify-icon>
+                        </a>
+                        <a href="#">
+                            <iconify-icon class="icon" icon="mdi:heart-outline"></iconify-icon>
+                        </a>
+                    </div>
+
+                    <div class="text-center -mb-7 my-4">
+                        <button class=" btn text-white text-md rounded-[13px] py-1 px-8" style="background-color: #250305;">$2.50</button>
+                    </div>
+
+
+                </div>
+
+
+
+                <div class="urun">
+                    <div class="-mt-32">
+                        <img class="resim" src="img/cappuccino.png">
+                    </div>
+                    <div>
+                        <h1 class="font-bold" style="color: #420205;">Cappuccino</h1>
+                        <p class="text-sm">Coffe 50%, milk %50, 280 ml</p>
+                    </div>
+
+                    <div class="ml-1 space-x-1 text-center mt-7">
+                        <a href="#">
+                            <iconify-icon class="icon" icon="map:grocery-or-supermarket"></iconify-icon>
+                        </a>
+                        <a href="#">
+                            <iconify-icon class="icon" icon="mdi:heart-outline"></iconify-icon>
+                        </a>
+                    </div>
+
+                    <div class="text-center -mb-7 my-4">
+                        <button class="btn text-white text-md rounded-[13px] py-1 px-8" style="background-color: #250305;">$2.50</button>
+                    </div>
+
+                </div>
+
+
+
+
+
+                <div class="text-justify space-y-5">
+                    <h1 class="font-bold text-4xl " style="color: #420205; ">Lorem ipsum is simply dummy text of</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit rem quisquam magni amet labore voluptate dolores commodi nulla doloribus excepturi rerum inventore odio officia dolor, explicabo maxime sint nihil hic.</p>
+                    <button class="btn text-white text-md rounded-full py-3 px-9 ml-1 " style=" background: rgb(32,24,61); background: linear-gradient(90deg, rgba(32,24,61,1) 0%, rgba(8,6,4,1) 0%, rgba(67,22,67,1) 0%, rgba(22,13,5,1) 0%, rgba(75,40,11,1)
+                            0%, rgba(88,53,24,1) 0%, rgba(166,93,33,1) 0%, rgba(83,44,13,1) 0%, rgba(131,75,29,1) 53%, rgba(96,52,16,1) 100%, rgba(166,93,33,1) 100%, rgba(121,65,20,1) 100%); ">Learn
+                        More</button>
+
+                </div>
+            </div>
+
+
+
+            <div class="flex text-justify">
+                <div class="space-y-10 w-3/5">
+                    <h1 class="font-bold text-4xl" style="color: #420205;">Lorem ipsum is simply dummy text of the printing and typesetting industry</h1>
+                    <p class="w-4/5">Lorem ipsum dolor sit amet consectet Pariatu quasi quo molestias sint iste, cupiditate vitae, amet cum rem inventore non ex illum quas eligendi explicabo Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel natus officia quidem
+                        placeat facilis ipsa accusamus cumque autem ipsam reprehenderit magnam eum dolorum quas corrupti, nulla temporibus repellendus assumenda in.</p>
+                    <button class="btn text-white text-md rounded-full py-3 px-9 ml-1" style="background: rgb(32,24,61); background: linear-gradient(90deg, rgba(32,24,61,1) 0%, rgba(8,6,4,1) 0%, rgba(67,22,67,1) 0%, rgba(22,13,5,1) 0%, rgba(75,40,11,1)
+                        0%, rgba(88,53,24,1) 0%, rgba(166,93,33,1) 0%, rgba(83,44,13,1) 0%, rgba(131,75,29,1) 53%, rgba(96,52,16,1) 100%, rgba(166,93,33,1) 100%, rgba(121,65,20,1) 100%);">Learn
+                        More</button>
+                </div>
+                <div>
+                    <p class="font-bold w-20 ml-auto -mb-20 relative" style="background: #d6d2cad0; border-radius: 18px; padding: 20px;">$2.50</p>
+                    <img src="img/cekirdeklikahve.png ">
+                </div>
+            </div>
+
+            <div class=" flex flex-col my-5">
+                <div class="">
+                    <h1 class="text-white text-xs ">LETS TALK</h1>
+                    <h1 class="font-bold text-2xl" style="color: #420205;">Want to Reserve a Table?</h1>
+                </div>
+
+
+                <div class="text-end mb-5">
+                    <button class="btn bg-stone-800 shadow-lg shadow-black  text-white text-md rounded-full py-3 px-16 " style="background-color: #250305;">Contact Now</button>
+
+                </div>
+                <div class="border bordercolor">
+                </div>
+
+                <div class="text-justify w-2/3 my-5">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, laudantium error sed eaque nam, a placeat neque et ipsa nostrum reprehenderit corporis, accusantium fugit earum vero itaque quasi voluptatibus temporibus! Lorem ipsum
+                        libero. </p>
+                </div>
+
+                <div>
+
+                </div>
+
+
+            </div>
+
+            <div class="flex flex-col">
+                <div class="flex justify-between">
+
+                    <div>
+                        <a href="#flavored" class="text-lg font-semibold text-white">Flavored</a>
+                        <iconify-icon class="-mb-1 -ml-1 text-white" width="25" height="25" icon="line-md:coffee-loop">
+                        </iconify-icon>
+                        <p class="text-white text-xs">Wake up to something special.</p>
+                    </div>
+                    <div class="space-y-2">
+                        <h1 class="font-bold text-2xl" style="color: #420205;">Our Services</h1>
+                        <ul class="hover:text-white space-y-2">
+                            <li><a href=" #home">Home</a></li>
+                            <li><a href="#coffee">Coffee Menu</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="space-y-2">
+                        <h1 class="font-bold text-2xl" style="color: #420205;">Our Company</h1>
+                        <ul class="hover:text-white space-y-2 ">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#coffee">Coffee Menu</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="space-y-2">
+                        <h1 class="font-bold text-2xl" style="color: #420205;">Address</h1>
+                        <ul class="hover:text-white space-y-2">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#coffee">Coffee Menu</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <img class="w-2/5 -ml-28 -mt-20 resim" src="/img/kahvefooter.png" alt="">
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+    </div>
+    </div>
+    </div>
+</body>
+
+<script src=" https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js "></script>
+
+</html>
